@@ -11,16 +11,16 @@ logo_src: /images/logo.svg
 subtitle_main: Still thinking about what to write.
 
 # Theme Secondary subtitle
-susbtitle_secondary: Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.
+susbtitle_secondary: Come disvocer more.
 
 # Footer About Section
-about_footer: All rights reserved <a href="https://github.com/kylops" target="_blank">kylops</a>.<br />The source code is available on <a href="https://github.com/kylops" target="_blank">GitHub</a>.
+about_footer: All rights reserved <a href="https://github.com/kylops" target="_blank">kylops</a>.<br />The source code is available on <a href="https://github.com/kylops/vv3schools-blog" target="_blank">GitHub</a>.
 
 # Default post title
 default_post_title: Untitled
 
 # Default post cover index page (Recommended)
-default_cover_index: "http://placehold.it/450x450"
+default_cover_index: "https://picsum.photos/g/450/450?blur?random"
 
 # Default post cover index page (Optional)
 default_cover_detail:
@@ -42,16 +42,9 @@ comments:
 google_analytics:
 
 # Social Accounts
-twitter_url: https://twitter.com/?lang=en
-facebook_url: https://www.facebook.com/
 instagram_url: https://www.instagram.com/
-dribble_url: https://dribbble.com/
 github_url: https://github.com/kylops
-googleplus_url: https://plus.google.com/
-behance_url: https://www.behance.net/
-fivehundredpx_url: \#
-email_url: \#
-rss_url: \#
+email_url: info@vv3schools.com
 
 node_sass:
   outputStyle: nested
