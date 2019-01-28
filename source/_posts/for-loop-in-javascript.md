@@ -1,9 +1,8 @@
 ---
-title: for-loop-in-javascript
+title: The for Loop vs. forEach in JavaScript
 date: 2018-03-08 12:04:57
 tags:
 ---
-# The for Loop vs. forEach in JavaScript
 
 If you’re new to JavaScript, you may be wondering what the difference is between using a classic `for` loop versus using the `forEach()` method on arrays. In this post, I’d like to review how each of these work and discuss why you might want to choose one over the other.
 
@@ -134,5 +133,3 @@ Using the `break` keyword, we can stop the loop from continuing on as soon as so
 ## Summary
 
 This post isn’t an exhaustive list of when you’d use a `for` loop over the `forEach()` method on arrays and vice versa, but I covered the more common situations I’ve run into and when I choose one over the other. One thing I didn’t cover was performance. If you look at performance metrics comparing the `for` loop to `forEach()`, the `for` loop is faster. However, a lot of the time this added performance won’t make a difference in your application, and using `for` over `forEach()` is premature optimization. Instead, optimize for code readability to ensure easier long term maintenance. When performance becomes an issue with `forEach()`, then reach for the `for` loop and see if it makes a difference.
-
-Subscribe to keep up with my latest JavaScript and Ember adventures.

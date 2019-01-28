@@ -3,16 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: vv3schools
-subtitle:
-description:
+title: VV3Schools
+subtitle: In VV3Schools, Knowledge Exchanges
+description: A place to expand knowledge.
 author: Kyle Liu
 language: en, cn
 timezone:
 
+sitemap: 
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://vv3schools.com
+url: https://vv3schools.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

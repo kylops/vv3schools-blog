@@ -3,8 +3,6 @@ title: How to create and publish a Vuejs component on NPM
 date: 2018-03-22 14:08:25
 tags: npm
 ---
-# How to create and publish a Vuejs component on NPM
-
 Here is one way you can create/publish a Vuejs library/component from scratch.
 
 I made this deliberately long to include all the steps and explain most of the instructions.
