@@ -5,7 +5,6 @@
 
 <section class="tiles">
     <% page.posts.forEach(function(item, index){
-        console.log(item.index);
          %>
         <%- partial('_partial/article-index', {item: item, index: index, imgSrc: ''}) %>
     <% }); %>
