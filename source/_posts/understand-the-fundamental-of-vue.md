@@ -1,6 +1,6 @@
 ---
 title: 从一个奇怪的错误出发理解 Vue 基本概念
-date: 2018-03-26 15:09:17
+date: 2019-03-25 15:36:04
 tags:
 ---
 转载自：http://zhuanlan.zhihu.com/p/25486761 by [Mario](https://www.zhihu.com/people/mario99)
